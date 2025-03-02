@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 50px;
+    background-color: teal;
+}
+
+.header > nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.table{
+    width: 100%;
+    margin: 20px;
+}
+
+table,th,td{
+border:1px solid black;
+padding: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100px;
+    background-color: teal;
+    flex-direction: column;
+}
